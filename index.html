@@ -200,7 +200,7 @@
           <h2>Contacto</h2>
           <p class="lead">Cuéntanos qué necesitas. Te respondemos en menos de un día hábil.</p>
           <ul class="stack" style="gap:10px; padding-left:18px">
-            <li>Email: <a class="mono" href="mailto:contacto@innotec.support">contacto@innotec.support</a></li>
+            <li>Email: <a class="mono" href="mailto:contacto@innotecsupport.pe">contacto@innotecsupport.pe</a></li>
             <li>Calendario: <a class="mono" href="#" aria-disabled="true" onclick="alert('Integraremos tu enlace de Calendly aquí.'); return false;">Agendar reunión</a></li>
             <li>Ubicación: Operación remota con cobertura LATAM</li>
           </ul>
@@ -242,7 +242,7 @@
         const data = new FormData(f);
         const body = [...data.entries()].map(([k,v]) => `${k}: ${v}`).join('\n');
         // Simple: open mail client. Replace with your endpoint (Formspree/Getform) when listo.
-        window.location.href = `mailto:contacto@innotec.support?subject=Contacto%20desde%20la%20web&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:contacto@innotecsupport.pe?subject=Contacto%20desde%20la%20web&body=${encodeURIComponent(body)}`;
         document.getElementById('formMsg').textContent = 'Abriendo tu cliente de correo…';
       }
 
